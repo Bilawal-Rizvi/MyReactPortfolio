@@ -115,19 +115,40 @@ export default function Portfolio() {
           </div>
           
           <div className="flex justify-center gap-4 mb-12">
-            <a href="https://github.com/Bilawal-Rizvi" target="_blank" rel="noopener noreferrer" 
-               className="p-3 bg-gray-800 rounded-full hover:bg-blue-600 transition-colors">
-              <Github size={24} />
-            </a>
-            <a href="https://linkedin.com/in/bilawal-shah" target="_blank" rel="noopener noreferrer"
-               className="p-3 bg-gray-800 rounded-full hover:bg-blue-600 transition-colors">
-              <Linkedin size={24} />
-            </a>
-            <a href="mailto:shahb7404@gmail.com"
-               className="p-3 bg-gray-800 rounded-full hover:bg-blue-600 transition-colors">
-              <Mail size={24} />
-            </a>
-          </div>
+  <a href="https://github.com/Bilawal-Rizvi" target="_blank" rel="noopener noreferrer" 
+     className="p-3 bg-gray-800 rounded-full hover:bg-blue-600 transition-colors">
+    <Github size={24} />
+  </a>
+  <a href="https://linkedin.com/in/bilawal-shah" target="_blank" rel="noopener noreferrer"
+     className="p-3 bg-gray-800 rounded-full hover:bg-blue-600 transition-colors">
+    <Linkedin size={24} />
+  </a>
+  
+  {/* Fiverr Icon */}
+<a
+  href="#"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="p-3 bg-gray-800 rounded-full hover:bg-[#1dbf73] transition-colors"
+>
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    xmlns="http://www.w3.org/2000/svg"
+    className="text-white"
+  >
+    <path d="M14.5 6.5h2V3h-2c-2.8 0-4.5 1.8-4.5 4.6V9H8v3.5h2v8.5h4v-8.5h2.9L17 9h-3V7.9c0-.9.4-1.4 1.5-1.4z"/>
+  </svg>
+</a>
+
+
+  <a href="mailto:shahb7404@gmail.com"
+     className="p-3 bg-gray-800 rounded-full hover:bg-blue-600 transition-colors">
+    <Mail size={24} />
+  </a>
+</div>
           
           <button 
             onClick={() => scrollToSection('projects')}
