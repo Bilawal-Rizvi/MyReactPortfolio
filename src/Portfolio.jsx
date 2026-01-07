@@ -126,7 +126,7 @@ export default function Portfolio() {
   
   {/* Fiverr Icon */}
 <a
-  href="#"
+  href="https://www.fiverr.com/users/bilawal__rizvi"
   target="_blank"
   rel="noopener noreferrer"
   className="p-3 bg-gray-800 rounded-full hover:bg-[#1dbf73] transition-colors"
